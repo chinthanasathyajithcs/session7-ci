@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 function sayHello() {
-    return "BYE!!!";
+    return "HELLO WORLD!!!";
 }
 
 app.get("/hello", function (request, response) {
